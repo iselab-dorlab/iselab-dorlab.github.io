@@ -22,6 +22,14 @@ const Header = () => {
                             </li>
                             <li>
                                 <NavLink
+                                    to="/aboutus"
+                                    className={({ isActive }) => isActive ? "active" : ""}
+                                >
+                                    About Us
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
                                     to="/members"
                                     className={({ isActive }) => isActive ? "active" : ""}
                                 >
@@ -42,14 +50,6 @@ const Header = () => {
                                     className={({ isActive }) => isActive ? "active" : ""}
                                 >
                                     Publications
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink
-                                    to="/aboutus"
-                                    className={({ isActive }) => isActive ? "active" : ""}
-                                >
-                                    About Us
                                 </NavLink>
                             </li>
                             <li>

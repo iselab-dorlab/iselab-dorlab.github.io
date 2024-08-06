@@ -26,7 +26,7 @@ const App = () => {
                     <Route path="/publications" element={<Publications />} />
                     <Route path="/aboutus" element={<AboutUs />} />
                     <Route path="/contact" element={<Contact />} />
-                    <Route path="/:filename" element={<MarkdownPage />} />
+                    <Route path="/news/:filename" element={<MarkdownPage />} />
                 </Routes>
                 <Footer />
                 <ScrollTop />
