@@ -22,7 +22,7 @@ const Header = () => {
                             </li>
                             <li>
                                 <NavLink
-                                    to="/aboutus"
+                                    to="/about-us"
                                     className={({ isActive }) => isActive ? "active" : ""}
                                 >
                                     About Us
@@ -38,7 +38,7 @@ const Header = () => {
                             </li>
                             <li>
                                 <NavLink
-                                    to="/researchtopic"
+                                    to="/research-topic"
                                     className={({ isActive }) => isActive ? "active" : ""}
                                 >
                                     Research Topic
@@ -46,7 +46,7 @@ const Header = () => {
                             </li>
                             <li>
                                 <NavLink
-                                    to="/publications"
+                                    to="/publication"
                                     className={({ isActive }) => isActive ? "active" : ""}
                                 >
                                     Publications
