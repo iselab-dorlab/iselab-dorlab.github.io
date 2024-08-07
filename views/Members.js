@@ -111,7 +111,7 @@ const Member = () => {
 
     const masterStudents = [
         {
-            imgSrc: 'assets/img/members/avt.png',
+            imgSrc: 'assets/img/members/NguyenDucLoc.jpg',
             links: [
                 { href: '', iconClass: 'fa-brands fa-google-scholar' },
                 { href: '', iconClass: 'bi bi-linkedin' },
@@ -308,7 +308,7 @@ const Member = () => {
             position: 'Kỹ sư VinAI'
         },
         {
-            imgSrc: 'assets/img/members/avt.png',
+            imgSrc: 'assets/img/members/NguyenThanhTrung.jpg',
             links: [
                 { href: '', iconClass: 'fa-brands fa-google-scholar' },
                 { href: '', iconClass: 'bi bi-linkedin' },
@@ -328,7 +328,7 @@ const Member = () => {
             position: 'Kỹ sư ViettelAI'
         },
         {
-            imgSrc: 'assets/img/members/avt.png',
+            imgSrc: 'assets/img/members/DuongVietAnh.jpg',
             links: [
                 { href: '', iconClass: 'fa-brands fa-google-scholar' },
                 { href: '', iconClass: 'bi bi-linkedin' },
@@ -336,6 +336,26 @@ const Member = () => {
             ],
             name: 'Dương Việt Anh',
             position: 'Kỹ sư MBBank'
+        },
+        {
+            imgSrc: 'assets/img/members/NguyenHoangHai.jpg',
+            links: [
+                { href: '', iconClass: 'fa-brands fa-google-scholar' },
+                { href: '', iconClass: 'bi bi-linkedin' },
+                { href: '', iconClass: 'fa-solid fa-building-columns' }
+            ],
+            name: 'Nguyễn Hoàng Hải',
+            position: 'Kỹ sư'
+        },
+        {
+            imgSrc: 'assets/img/members/NguyenThiHoaiLinh.jpg',
+            links: [
+                { href: '', iconClass: 'fa-brands fa-google-scholar' },
+                { href: '', iconClass: 'bi bi-linkedin' },
+                { href: '', iconClass: 'fa-solid fa-building-columns' }
+            ],
+            name: 'Nguyễn Thị Hoài Linh',
+            position: 'Kỹ sư'
         },
         
     ];
