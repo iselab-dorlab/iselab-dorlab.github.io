@@ -2097,6 +2097,7 @@ section,
   display: flex;
   align-items: flex-start; /* Align items to the top */
   margin-bottom: 20px;
+  flex-wrap: wrap;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -2148,6 +2149,37 @@ section,
 
 .image-right .research-topic-content {
   order: 2; /* Ensure content appears second */
+}
+@media (min-width: 768px) {
+  .research-topic-item.image-left {
+      flex-direction: row;
+  }
+
+  .research-topic-item.image-right {
+      flex-direction: row-reverse;
+  }
+}
+
+@media (max-width: 767px) {
+  .research-topic-item {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .research-topic-image {
+      margin: 0;
+      max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title h2 {
+      font-size: 1.5em;
+  }
+
+  .research-topic-content {
+      font-size: 0.9em;
+  }
 }
 .container img {
   display: block;
