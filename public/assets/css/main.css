@@ -2149,15 +2149,7 @@ section,
 .image-right .research-topic-content {
   order: 2; /* Ensure content appears second */
 }
-<<<<<<< HEAD
 .container img {
   display: block;
   margin: 0 auto;
-=======
-.centered-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%; /* Optional: ensure image scales with container */
->>>>>>> 33b53fac2f88ebe2cfcc151e0365a668b4c58958
 }
