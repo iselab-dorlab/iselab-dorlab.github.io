@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams } from 'next/navigation'
 import { marked } from 'marked'; // Named import
 
 const MarkdownPage = () => {
@@ -22,6 +22,7 @@ const MarkdownPage = () => {
         const html = marked(contentWithoutFrontMatter);
         setHtmlContent(html);
       } catch (error) {
+        console.log('error', error)
         console.error(`Error loading ${filename}.md`, error);
         setHtmlContent('<p>Error loading content.</p>');
       } finally {

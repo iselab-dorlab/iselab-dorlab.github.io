@@ -1,5 +1,7 @@
+"use client";
+
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import Link from "next/link";
 import fm from 'front-matter';
 
 const Home = () => {
@@ -53,7 +55,7 @@ const Home = () => {
               <p>
                 Hai nhóm nghiên cứu tiềm năng ISE (Intelligent Software Engineering) và DOR (Data-driven Operation Research) hoạt động song song dưới sự dẫn dắt của nhóm các thầy cô giảng viên Khoa Khoa Học Máy Tính- Trường Công Nghệ Thông Tin và Truyền Thông, Đại học Bách Khoa Hà Nội.
               </p>
-              <Link to="/contact" className="btn-get-started">Join with us</Link>
+              <Link href="/contact" className="btn-get-started">Join with us</Link>
             </div>
           </div>
         </div>
@@ -67,7 +69,7 @@ const Home = () => {
             {news.map((newsItem, index) => (
               <li key={index}>
                 <article>
-                  <Link to={`/news/${newsItem.fileName}`} className="post-link">
+                  <Link href={`/news/${newsItem.fileName}`} className="post-link">
                   [{newsItem.date}] {newsItem.title}
                   </Link>
                   <p>{newsItem.chapeau}</p>

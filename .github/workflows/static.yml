@@ -50,13 +50,13 @@ jobs:
       - run: |
           npm install
           npm run build
-          mv 404.html ./build
+          mv 404.html ./out
       # Upload build files to artifacts
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload only build folder
-          path: "./build"
+          path: "./out"
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
