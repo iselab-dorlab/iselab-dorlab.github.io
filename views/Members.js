@@ -137,7 +137,7 @@ const Member = () => {
                 { href: '', iconClass: 'bi bi-linkedin' },
                 { href: '', iconClass: 'fa-solid fa-building-columns' }
             ],
-            name: 'Nguyễn Duy Hùng',
+            name: 'Trần Duy Hùng',
             position: 'Trường CNTT, Đại học Bách khoa Hà Nội'
         },
         {

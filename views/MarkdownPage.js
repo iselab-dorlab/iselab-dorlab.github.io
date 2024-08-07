@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'next/navigation';
+import { useRouter } from 'next/router';
 import { marked } from 'marked';
 
 const MarkdownPage = () => {
-  const { filename } = useParams();
+  const router = useRouter();
+  const { filename } = router.query;
   const [htmlContent, setHtmlContent] = useState('');
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    if (!filename) return;
+
     const fetchMarkdown = async () => {
       try {
         const response = await fetch(`/assets/news/${filename}.md`);
@@ -43,7 +46,7 @@ const MarkdownPage = () => {
         <h2>News</h2>
       </div>
       <div className="container">
-        <div dangerouslySetInnerHTML={{ __html: htmlContent }}/>
+        <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
       </div>
     </section>
   );
