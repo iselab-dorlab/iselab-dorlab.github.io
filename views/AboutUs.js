@@ -97,7 +97,7 @@ const AboutUs = () => {
                   <i className="fas fa-user-tie flex-shrink-0"></i>
                   <div>
                     <span>3</span>
-                    <p>Professor</p>
+                    <p>Professors</p>
                   </div>
                 </div>
               </div>
@@ -205,7 +205,7 @@ const AboutUs = () => {
                   <i className="fas fa-user-tie flex-shrink-0"></i>
                   <div>
                     <span>3</span>
-                    <p>Professor</p>
+                    <p>Professors</p>
                   </div>
                 </div>
               </div>

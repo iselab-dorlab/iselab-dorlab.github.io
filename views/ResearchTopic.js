@@ -1,5 +1,4 @@
 "use client";
-
 import React from 'react';
 
 const ResearchTopic = () => {
@@ -36,21 +35,21 @@ const ResearchTopic = () => {
         {
             title: "Tối ưu tổ hợp",
             description: "Bài toán tối ưu tổ hợp (Combinatorial Optimization) xuất hiện rất nhiều lĩnh vực của cuộc sống, ví dụ nông nghiệp, sản xuất, tài chính, chuỗi cung ứng, giao vận, giáo dục. Hướng nghiên cứu của truyền thống trong lĩnh vực này gồm: <br> •	Tìm kiếm và mô hình hóa các bài toán tối ưu tổ hợp trong cuộc sống hàng ngày, việc nghiên cứu các bài toán này có ý nghĩa/mang lại giá trị cho xã hội; <br> •	Chứng minh độ khó (NP-hard/NP-complete) của các bài toán tối ưu tổ hợp; <br> •	Đề xuất các mô hình toán học (Integer programming) và quy hoạch ràng buộc (Constraint programming) cho các bài toán; <br> •	Đề xuất các thuật toán chính xác cho bài toán tối ưu tổ hợp; <br> •	Đề xuất các thuật toán kinh nghiệm (tham lam, tìm kiếm cục bộ, tìm kiếm cục bộ dựa trên ràng buộc, tìm kiếm tabu, …); <br> •	Phân tích, đánh giá về hiệu quả các đề xuất; <br> •	Phát triển các thư viện nguồn mở giải các bài toán này phục vụ cộng đồng;",
-            participant: "Sinh viên tham gia nghiên cứu dưới dạng Project 1-2-3, Nghiên cứu tốt nghiệp, Graduation Research và Đồ án tốt nghiệp.  <br> Ưu tiên sinh viên có đam mê nghiên cứu, có tinh thần trách nhiệm, nếu có kiến thức nền tảng về NLP, Học máy, Học sâu thì sẽ là lợi thế.",
+            participant: "Sinh viên tham gia nghiên cứu dưới dạng Project 1-2-3, Nghiên cứu tốt nghiệp, Graduation Research và Đồ án tốt nghiệp.  <br> Ưu tiên sinh viên có đam mê nghiên cứu, có tinh thần trách nhiệm, nếu có kiến thức nền tảng về thuật toán, tối ưu, Học máy sẽ là lợi thế.",
             image: "assets/img/topics/topic5.jpg",
             link: "https://github.com/username/human-centric-ai"
         },
         {
             title: "Công nghệ tài chính",
             description: "Ứng dụng các kỹ thuật thuật toán, tối ưu rời rạc trong học máy, dữ liệu lớn, phân tích dữ liệu và tối ưu danh mục, áp dụng trong lĩnh vực tài chính. Các hướng nghiên cứu chính: <br> •	Rời rạc hóa dữ liệu: Việc rời rạc hóa dữ liệu sẽ làm giảm độ phức tạp quá trình huấn luyện các mô hình học máy, tăng độ robustness của mô hình. Hiện tại, nghiên cứu đang tập trung vào rời rạc hóa các đặc trưng (feature) riêng rẽ. Rời rạc hóa đồng thời nhiều đặc trưng, phù hợp với từng thuật toán học máy là một hướng nghiên cứu mở, tiềm năng. <br> •	Lựa chọn đặc trưng: Bài toán lựa chọn đặc trưng là bài toán kinh điển. Tuy nhiên các thuật toán học máy càng ngày càng phát triển. Hướng nghiên cứu tập trung việc lựa chọn đặc trưng phù hợp nhất với từng loại thuật toán học máy. <br> •	Thuật toán học máy: Hướng nghiên cứu tập trung vào điều chỉnh/đề xuất các thuật toán học máy cho các bài toán trong tài chính với hàm mục tiêu là sử dụng hiệu quả nhất trong thực tế thay cho hàm mất mát. <br> •	Xây dựng kho đặc trưng (Feature Store): Các hệ thống MLOps đang được quan tâm trong các tổ chức tài chính, ngân hàng, bảo hiểm. Hạt nhân của các hệ thống này là cá kho đặc trưng. Các giải pháp kho đặc trưng hiện tại của Hopswork, Amazon, Google tập trung vào quản lý các đặc trưng. Hướng nghiên cứu phát triển các engine để trích xuất một lượng lớn các đặc trưng tối ưu dựa các thuật toán hiệu quả và loại bỏ các đặc trưng dư thừa trong kho đặc trưng để tối ưu chi phí. <br> •	Tối ưu danh mục: Các bài toán tối ưu tổ hợp/liên tục trong việc đưa ra các chiến lược marketing, quản trị rủi ro trong các ngân hàng. <br> •	Xây dựng các công cụ tích hợp các kỹ thuật xây dựng mô hình hiệu quả, đơn giản và dễ dùng;",
-            participant: "Sinh viên tham gia nghiên cứu dưới dạng Project 1-2-3, Nghiên cứu tốt nghiệp, Graduation Research và Đồ án tốt nghiệp.  <br> Ưu tiên sinh viên có đam mê nghiên cứu, có tinh thần trách nhiệm, nếu có kiến thức nền tảng về NLP, Học máy, Học sâu thì sẽ là lợi thế.",
+            participant: "Sinh viên tham gia nghiên cứu dưới dạng Project 1-2-3, Nghiên cứu tốt nghiệp, Graduation Research và Đồ án tốt nghiệp.  <br> Ưu tiên sinh viên có đam mê nghiên cứu, có tinh thần trách nhiệm, nếu có kiến thức nền tảng về thuật toán, tối ưu, Học máy sẽ là lợi thế.",
             image: "assets/img/topics/topic6.jpg",
             link: "https://github.com/username/human-centric-ai"
         },
         {
             title: "Chấm điểm tín dụng",
             description: "Ứng dụng các kỹ thuật thuật toán, tối ưu rời rạc, học máy, dữ liệu lớn, phân tích dữ liệu và tối ưu danh mục trong xây dựng và vận hành các giải pháp chấm điểm tín dụng. Các hướng nghiên cứu chính: <br> •	Tìm hiểu, phân tích, tổng hợp các bài toán tối ưu tổ hợp trong lĩnh vực chấm điểm tín dụng; <br> •	Áp dụng các kỹ thuật học máy tiên tiến trong bài toán chấm điểm tín dụng dựa trên dữ liệu truyền thống và thay thế; <br> •	Áp dụng các kỹ thuật học sâu trong lĩnh vực chấm điểm tín dụng; <br> •	Áp dụng các kỹ thuật học tăng cường trong lĩnh vực chấm điểm tín dụng; <br> •	Áp dụng các kỹ thuật LLM trong chấm điểm tín dụng, tư vấn giải thích về hoạt động chấm điểm tín dụng; <br> •	Điều chỉnh/đề xuất các thuật toán học máy mới để xây dựng các mô hình chấm điểm tín dụng;",
-            participant: "Sinh viên tham gia nghiên cứu dưới dạng Project 1-2-3, Nghiên cứu tốt nghiệp, Graduation Research và Đồ án tốt nghiệp.  <br> Ưu tiên sinh viên có đam mê nghiên cứu, có tinh thần trách nhiệm, nếu có kiến thức nền tảng về NLP, Học máy, Học sâu thì sẽ là lợi thế.",
+            participant: "Sinh viên tham gia nghiên cứu dưới dạng Project 1-2-3, Nghiên cứu tốt nghiệp, Graduation Research và Đồ án tốt nghiệp.  <br> Ưu tiên sinh viên có đam mê nghiên cứu, có tinh thần trách nhiệm, nếu có kiến thức nền tảng về thuật toán, tối ưu, Học máy sẽ là lợi thế.",
             image: "assets/img/topics/topic7.jpg",
             link: "https://github.com/username/human-centric-ai"
         },

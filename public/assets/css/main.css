@@ -400,33 +400,47 @@ h6 {
 }
 
 /* Navmenu - Mobile */
-@media (max-width: 1199px) {
-  .mobile-nav-toggle {
-    color: var(--nav-color);
-    font-size: 28px;
-    line-height: 0;
-    margin-right: 10px;
-    cursor: pointer;
-    transition: color 0.3s;
+/* Mobile Menu Toggle Icon */
+.mobile-nav-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #3fbbc0;
+  cursor: pointer;
+}
+
+/* Hide nav menu by default on mobile */
+.navmenu {
+  display: flex;
+  flex-direction: row;
+}
+
+.navmenu.mobile-menu-open {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hide nav menu on mobile by default */
+@media (max-width: 991px) {
+  .navmenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
   }
 
-  .navmenu {
-    padding: 0;
-    z-index: 9997;
+  .navmenu.mobile-menu-open {
+    display: flex;
   }
 
   .navmenu ul {
-    display: none;
-    position: absolute;
-    inset: 60px 20px 20px 20px;
-    padding: 10px 0;
-    margin: 0;
-    border-radius: 6px;
-    background-color: var(--nav-mobile-background-color);
-    overflow-y: auto;
-    transition: 0.3s;
-    z-index: 9998;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    width: 100%;
   }
 
   .navmenu a,
@@ -470,60 +484,37 @@ h6 {
     color: var(--nav-dropdown-hover-color);
   }
 
-  .navmenu .active i,
-  .navmenu .active:focus i {
-    background-color: var(--accent-color);
-    color: var(--contrast-color);
-    transform: rotate(180deg);
+  .navmenu .active a {
+    color: #3fbbc0; /* Active link color */
   }
 
-  .navmenu .dropdown ul {
-    position: static;
-    display: none;
-    z-index: 99;
-    padding: 10px 0;
-    margin: 10px 20px;
-    background-color: var(--nav-dropdown-background-color);
-    border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-    box-shadow: none;
-    transition: all 0.5s ease-in-out;
+
+  .navmenu ul li {
+    margin: 0;
   }
 
-  .navmenu .dropdown ul ul {
-    background-color: rgba(33, 37, 41, 0.1);
-  }
-
-  .navmenu .dropdown>.dropdown-active {
+  .navmenu ul li a {
+    padding: 15px;
     display: block;
-    background-color: rgba(33, 37, 41, 0.03);
+    text-align: center;
+    color: #333;
+    text-decoration: none;
   }
 
-  .mobile-nav-active {
-    overflow: hidden;
-  }
-
-  .mobile-nav-active .mobile-nav-toggle {
-    color: #fff;
-    position: absolute;
-    font-size: 32px;
-    top: 15px;
-    right: 15px;
-    margin-right: 0;
-    z-index: 9999;
-  }
-
-  .mobile-nav-active .navmenu {
-    position: fixed;
-    overflow: hidden;
-    inset: 0;
-    background: rgba(33, 37, 41, 0.8);
-    transition: 0.3s;
-  }
-
-  .mobile-nav-active .navmenu>ul {
-    display: block;
+  .navmenu ul li a.active {
+    background: #defcfc;
   }
 }
+
+/* Ensure proper spacing on larger screens */
+@media (max-width: 1199px) {
+  .navmenu ul {
+    list-style: none; /* Remove dots from list items */
+    padding: 0;
+    margin: 0;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Global Footer
@@ -1930,7 +1921,9 @@ section,
   background-color: var(--surface-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   padding: 24px 0 30px 0;
+  
 }
+
 
 .contact .info-item i {
   color: var(--accent-color);
@@ -1964,6 +1957,19 @@ section,
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   height: 100%;
   padding: 30px;
+}
+.contact-info .contact-image {
+  display: block;
+  margin: 20px auto; /* Center image horizontally */
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-info .contact-image {
+  display: block;
+  margin: 20px auto; /* Center image horizontally */
+  max-width: 100%;
+  height: auto;
 }
 
 @media (max-width: 575px) {
@@ -2142,4 +2148,10 @@ section,
 
 .image-right .research-topic-content {
   order: 2; /* Ensure content appears second */
+}
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; /* Optional: ensure image scales with container */
 }
