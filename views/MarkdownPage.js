@@ -43,7 +43,7 @@ const MarkdownPage = () => {
         <h2>News</h2>
       </div>
       <div className="container">
-        <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
+        <div dangerouslySetInnerHTML={{ __html: htmlContent }}/>
       </div>
     </section>
   );
