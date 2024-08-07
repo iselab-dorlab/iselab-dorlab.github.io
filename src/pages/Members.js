@@ -4,7 +4,7 @@ const TeamMember = ({ imgSrc, links, name, position }) => (
     <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
         <div className="team-member">
             <div className="member-img">
-                <img src={imgSrc} className="img-fluid" alt={name} />
+                <img src={imgSrc} className="img-fluid center-block" alt={name} />
                 <div className="social">
                     {links.map((link, index) => (
                         <a key={index} href={link.href} target="_blank" rel="noopener noreferrer">
@@ -245,10 +245,10 @@ const Member = () => {
             position: 'Khoa Khoa học Máy tính, Đại học Chung-Ang, Hàn Quốc'
         },
         {
-            imgSrc: 'assets/img/members/thien.jpg',
+            imgSrc: 'assets/img/members/thien.jpeg',
             links: [
-                { href: '', iconClass: 'fa-brands fa-google-scholar' },
-                { href: '', iconClass: 'bi bi-linkedin' },
+                { href: 'https://scholar.google.com/citations?user=W35RgdEAAAAJ&hl=vi&oi=sra', iconClass: 'fa-brands fa-google-scholar' },
+                { href: 'https://www.linkedin.com/in/thiennguyenduc2605/', iconClass: 'bi bi-linkedin' },
                 { href: '', iconClass: 'fa-solid fa-building-columns' }
             ],
             name: 'Nguyễn Đức Thiên',
