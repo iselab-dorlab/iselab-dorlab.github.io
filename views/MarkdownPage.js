@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'next/navigation'
-import { marked } from 'marked'; // Named import
+import { useParams } from 'next/navigation';
+import { marked } from 'marked';
 
 const MarkdownPage = () => {
   const { filename } = useParams();
@@ -20,9 +20,9 @@ const MarkdownPage = () => {
         const contentWithoutFrontMatter = text.replace(frontMatterRegex, '');
         // Convert Markdown to HTML
         const html = marked(contentWithoutFrontMatter);
+        // Set the HTML content
         setHtmlContent(html);
       } catch (error) {
-        console.log('error', error)
         console.error(`Error loading ${filename}.md`, error);
         setHtmlContent('<p>Error loading content.</p>');
       } finally {

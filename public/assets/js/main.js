@@ -56,6 +56,7 @@ const Main = () => {
       });
     });
 
+    
     // Preloader
     const preloader = document.querySelector('#preloader');
     if (preloader) {

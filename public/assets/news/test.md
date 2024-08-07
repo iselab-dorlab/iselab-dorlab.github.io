@@ -1,12 +1,12 @@
 ---
 title: "Tìm kiếm thành viên tiềm năng năm 2024"
-date: "2024-08-06"
+date: "2024-01-06"
 chapeau: "Để chuẩn bị cho đợt đào tạo sắp tới, kì 20241, Nhóm nghiên cứu Lab ISE và DOR tìm kiếm các ứng viên tiềm năng. Các bạn sinh viên quan tâm có thể tìm hiểu các hướng nghiên cứu nổi bật của nhóm."
 ---
 
 Đến hẹn lại lên, năm nay nhóm lại tiếp tục tìm kiếm thành viên mới cho đợt đào tạo sắp tới trong học kì 20241 dưới sự hướng dẫn của các thầy cô trưởng nhóm, hướng tới các bạn sinh viên năm 2 và năm 3. Mục đích của quá trình đào tạo vừa để  các bạn sinh viên có thể làm quen với các bài toán nghiên cứu, các lĩnh vực có liên quan và theo lộ trình học tập phù hợp với việc học tập trong  năm học.
 
-![Call for ISE lab](/assets/news/img/news1.jpg)
+![Call for ISE lab](assets/news/img/news1.jpg)
 
 Ngoài ra, các bạn sinh viên năm 4 có mong muốn tham gia Lab và hướng tới làm đồ án tốt nghiệp cũng hoàn toàn có thể đăng ký luôn đợt này.
 
