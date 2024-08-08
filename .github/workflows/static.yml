@@ -50,7 +50,6 @@ jobs:
       - run: |
           npm install
           npm run build
-          mv 404.html ./out
       # Upload build files to artifacts
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
