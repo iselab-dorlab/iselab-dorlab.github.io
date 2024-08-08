@@ -1,4 +1,3 @@
-
 import ScrollTop from "@/views/components/ScrollTop";
 import ScrollToTop from "@/views/components/ScrollToTop";
 import Home from "@/views/Home";

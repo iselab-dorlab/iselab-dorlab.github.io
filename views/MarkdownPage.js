@@ -1,11 +1,24 @@
-import React, { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
-import { marked } from 'marked';
+"use client";
+
+import React, { useEffect, useState } from "react";
+import { useRouter } from "next/router";
+import { marked } from "marked";
+
 
 const MarkdownPage = () => {
   const router = useRouter();
+  if (router.isReady) {
+    return <_MarkdownPage />;
+  } else {
+    return <div>Loading...</div>;
+  }
+}
+
+const _MarkdownPage = () => {
+  const router = useRouter();
   const { filename } = router.query;
-  const [htmlContent, setHtmlContent] = useState('');
+  console.log(router.query);
+  const [htmlContent, setHtmlContent] = useState("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -20,14 +33,14 @@ const MarkdownPage = () => {
         const text = await response.text();
         // Remove front matter if it exists
         const frontMatterRegex = /^---\s*[\s\S]*?\s*---\s*/;
-        const contentWithoutFrontMatter = text.replace(frontMatterRegex, '');
+        const contentWithoutFrontMatter = text.replace(frontMatterRegex, "");
         // Convert Markdown to HTML
         const html = marked(contentWithoutFrontMatter);
         // Set the HTML content
         setHtmlContent(html);
       } catch (error) {
         console.error(`Error loading ${filename}.md`, error);
-        setHtmlContent('<p>Error loading content.</p>');
+        setHtmlContent("<p>Error loading content.</p>");
       } finally {
         setLoading(false);
       }

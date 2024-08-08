@@ -13,6 +13,6 @@
     "**/*.ts", // Includes all TypeScript files
     "**/*.tsx", // Includes all TypeScript JSX files
     "**/*.js", // Includes all JavaScript files
-    "**/*.jsx" // Includes all JavaScript JSX files
+    "**/*.jsx", // Includes all JavaScript JSX files
   ]
 }
