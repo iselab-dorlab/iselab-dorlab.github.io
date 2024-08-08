@@ -1,6 +1,6 @@
 ---
 title: "Tìm kiếm thành viên tiềm năng năm 2024"
-date: "2024-08-06"
+date: "2024-08-08"
 chapeau: "Để chuẩn bị cho đợt đào tạo sắp tới, kì 20241, Nhóm nghiên cứu Lab ISE và DOR tìm kiếm các ứng viên tiềm năng. Các bạn sinh viên quan tâm có thể tìm hiểu các hướng nghiên cứu nổi bật của nhóm."
 ---
 
@@ -27,3 +27,6 @@ Ngoài ra, các bạn sinh viên năm 4 có mong muốn tham gia Lab và hướn
 - Có thể tìm hiểu định hướng của Lab (About us) và các chủ đề nghiên cứu quan trọng đang thực hiện (Research Topics)
 - Email trình bày nguyện vọng, động cơ học tập gửi về: [anhbtm@soict.hust.edu.vn](mailto:anhbtm@soict.hust.edu.vn).
 
+**Deadline:**
+- Gửi email đăng ký: 20/9/2024
+- Đăng ký trên call thành viên mới Tháng 8 của [Trung tâm BK-AI](https://bkai.ai/invitation-to-join-bkai-research-labs-2024/): 31/8/2024
