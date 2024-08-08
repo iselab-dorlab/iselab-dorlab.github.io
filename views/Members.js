@@ -357,6 +357,16 @@ const Member = () => {
             name: 'Nguyễn Thị Hoài Linh',
             position: 'Kỹ sư'
         },
+        {
+            imgSrc: 'assets/img/members/avt.png',
+            links: [
+                { href: '', iconClass: 'fa-brands fa-google-scholar' },
+                { href: '', iconClass: 'bi bi-linkedin' },
+                { href: '', iconClass: 'fa-solid fa-building-columns' }
+            ],
+            name: 'Nguyễn Đình Lộc',
+            position: 'Kỹ sư'
+        },
         
     ];
 

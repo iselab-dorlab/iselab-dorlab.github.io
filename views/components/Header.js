@@ -41,7 +41,7 @@ const Header = () => {
       <div className="branding d-flex align-items-center">
         <div className="container position-relative d-flex align-items-center justify-content-between">
           <Link href="/" className="logo d-flex align-items-center me-auto">
-            <img src="assets/img/logo.png" alt="ISE Lab Logo" />
+            <img src="/assets/img/logo.png" alt="ISE Lab Logo" />
           </Link>
           {/* Mobile Menu Toggle Button */}
           <button
