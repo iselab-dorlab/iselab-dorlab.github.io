@@ -243,6 +243,46 @@ const Member = () => {
             name: 'Nguyễn Thành An',
             position: 'Trường CNTT, Đại học Bách khoa Hà Nội'
         },
+        {
+            imgSrc: 'assets/img/members/avt.png',
+            links: [
+                { href: '', iconClass: 'fa-brands fa-google-scholar' },
+                { href: '', iconClass: 'bi bi-linkedin' },
+                { href: '', iconClass: 'fa-solid fa-building-columns' }
+            ],
+            name: 'Vũ Nhật Nguyên Thư',
+            position: 'Trường CNTT, Đại học Bách khoa Hà Nội'
+        },
+        {
+            imgSrc: 'assets/img/members/avt.png',
+            links: [
+                { href: '', iconClass: 'fa-brands fa-google-scholar' },
+                { href: '', iconClass: 'bi bi-linkedin' },
+                { href: '', iconClass: 'fa-solid fa-building-columns' }
+            ],
+            name: 'Phan Thanh Thái',
+            position: 'Trường CNTT, Đại học Bách khoa Hà Nội'
+        },
+        {
+            imgSrc: 'assets/img/members/avt.png',
+            links: [
+                { href: '', iconClass: 'fa-brands fa-google-scholar' },
+                { href: '', iconClass: 'bi bi-linkedin' },
+                { href: '', iconClass: 'fa-solid fa-building-columns' }
+            ],
+            name: 'Vũ Khắc Long',
+            position: 'Trường CNTT, Đại học Bách khoa Hà Nội'
+        },
+        {
+            imgSrc: 'assets/img/members/avt.png',
+            links: [
+                { href: '', iconClass: 'fa-brands fa-google-scholar' },
+                { href: '', iconClass: 'bi bi-linkedin' },
+                { href: '', iconClass: 'fa-solid fa-building-columns' }
+            ],
+            name: 'Phan Văn Đức',
+            position: 'Trường CNTT, Đại học Bách khoa Hà Nội'
+        },
         
     ];
 

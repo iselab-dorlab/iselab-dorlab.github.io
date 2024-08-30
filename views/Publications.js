@@ -187,7 +187,7 @@ const Publication = () => {
   return (
     <section id="publication" className="section content-background">
       <div className="container section-title">
-        <h2>Publication</h2>
+        <h2>Publications</h2>
       </div>
 
       <div className="container section-title">
