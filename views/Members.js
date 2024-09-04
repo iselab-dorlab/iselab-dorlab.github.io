@@ -244,7 +244,7 @@ const Member = () => {
             position: 'Trường CNTT, Đại học Bách khoa Hà Nội'
         },
         {
-            imgSrc: 'assets/img/members/avt.png',
+            imgSrc: 'assets/img/members/thu.jpg',
             links: [
                 { href: '', iconClass: 'fa-brands fa-google-scholar' },
                 { href: '', iconClass: 'bi bi-linkedin' },
@@ -274,7 +274,7 @@ const Member = () => {
             position: 'Trường CNTT, Đại học Bách khoa Hà Nội'
         },
         {
-            imgSrc: 'assets/img/members/avt.png',
+            imgSrc: 'assets/img/members/duc.jpg',
             links: [
                 { href: '', iconClass: 'fa-brands fa-google-scholar' },
                 { href: '', iconClass: 'bi bi-linkedin' },
