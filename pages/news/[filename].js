@@ -16,7 +16,12 @@ export const getStaticProps = async (context) => {
 
 export const getStaticPaths = async () => {
   return {
-    paths: ["/news/tuyenthanhvien", "/news/template", "/news/article1"], // TODO: Add more paths to list all news
-    fallback: true,
+    paths: [
+      "/news/tuyenthanhvien2025",
+      "/news/tuyenthanhvien",
+      "/news/template",
+      "/news/article1",
+    ], // TODO: Add more paths to list all news
+    fallback: false,
   };
 };
