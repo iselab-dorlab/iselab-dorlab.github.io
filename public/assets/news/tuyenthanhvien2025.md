@@ -7,7 +7,7 @@ chapeau: "Đừng bỏ lỡ cơ hội đặc biệt tham gia Lab Intelligent Sof
 
 Bạn là sinh viên năm 2 đầy nhiệt huyết, hay sinh viên năm 4 đang tìm kiếm đề tài tốt nghiệp chất lượng? Bạn đam mê nghiên cứu và muốn thử sức với các bài toán thực tế trong công nghệ phần mềm thông minh, tối ưu dữ liệu, NLP, fintech và nhiều lĩnh vực hấp dẫn khác? Đây chính là cơ hội tuyệt vời để bạn bắt đầu hành trình nghiên cứu chuyên nghiệp!
 
-![Call for ISE lab](/assets/news/img/news1.jpg)
+![Call for ISE lab](/assets/news/img/news2.jpg)
 
 ✨ **Điều chúng tôi tìm kiếm:**
 - Sinh viên ham học hỏi, thích khám phá những vấn đề mới.
